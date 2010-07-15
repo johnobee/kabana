@@ -6,8 +6,6 @@
 <title>Kabana</title>
 </head>
 <body>
-
 <h5>KABANA SOFTWARE FRIST PAGE</h5>
-
 </body>
 </html>
