@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "//hibernate/hibernate mapping dtd 3.0//en"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+ <hibernate-mapping>
+ 
+ 	<class name="br.com.negocios.entidade.Administrador" table="administrador">
+ 		<id name="id" column="id">
+ 			<generator class="increment"></generator>
+ 		</id>
+ 			
+ 		<property name="nome" column="nome" type="java.lang.String"></property>
+ 		<property name="sobrenome" column="sobrenome" type="java.lang.String"></property>
+ 		<property name="email" column="email" type="java.lang.String"></property>
+ 		<property name="telefone" column="telefone" type="java.lang.String"></property>
+ 		<property name="login" column="login" type="java.lang.String"></property>
+ 		<property name="senha" column="senha" type="java.lang.String"></property>
+ 			
+ 	</class>
+ 	
+ </hibernate-mapping>
