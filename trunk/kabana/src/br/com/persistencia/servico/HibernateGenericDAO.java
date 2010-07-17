@@ -54,6 +54,11 @@ public class HibernateGenericDAO<T, ID extends Serializable> implements GenericD
 	}
 	
 	@SuppressWarnings("unchecked")
+	public T unicoResultado(Criteria criteria){
+		return (T) criteria.uniqueResult();
+	}
+	
+	@SuppressWarnings("unchecked")
 	public List<T> paginador(Criteria criteria, Integer inicio, Integer fim){
 		criteria.setFirstResult(inicio);
 		criteria.setMaxResults(fim);
