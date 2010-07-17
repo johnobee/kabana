@@ -37,6 +37,11 @@ public class HibernateUtil {
 		this.session.set(null);
 	}
 	
+	public void flush(){
+		Session session = this.session.get();
+		session.flush();
+	}
+	
 	public void rollback(){
 		Session session = this.session.get();
 		session.getTransaction().rollback();
