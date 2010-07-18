@@ -32,6 +32,8 @@ public class BaseAction extends ActionSupport implements ServletRequestAware {
 	public static final String SIM = "sim";
 	public static final String NAO = "nao";
 	
+	public static final String SESSIONKEY = "userSession";
+	
 	private File[] arquivos;
 	private String[] arquivosNome;
 	private String[] arquivosTipo;
