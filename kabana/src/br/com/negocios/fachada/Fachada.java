@@ -20,8 +20,7 @@ public class Fachada {
 		}
 		return fachada;
 	}
-	
-	
+		
 	public Administrador obterAdministradorLoginSenha(String login, String senha) throws EntidadeNaoExistenteException{
 		return controlador.obterAdmLoginSenha(login, senha);
 	}
