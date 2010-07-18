@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<package name="base" extends="struts-default">
+		  
+		<default-interceptor-ref name="defaultStack"/>
+		
+		<action name="administracaoAction" class="br.com.gui.action.GerenciadorAdministracao">
+			<result>/admin/view/administrador/gerenciador.jsp</result>
+			<result name="input">/admin/index.jsp</result>
+		</action>
+		
+				
+	</package>
+
+</struts>
+

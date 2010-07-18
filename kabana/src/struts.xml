@@ -3,16 +3,7 @@
 
 <struts>
 
-	<package name="base" extends="struts-default">
-		  
-		<default-interceptor-ref name="defaultStack"/>
-		
-		<action name="kabana" class="br.com.gui.action.GerenciadorIndex">
-			<result>kabana.jsp</result>
-		</action>
-		
-				
-	</package>
-
+	<include file="struts-gerenciador-adm.xml"></include>
+	
 </struts>
 
