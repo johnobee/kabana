@@ -11,8 +11,7 @@
 			<result>/admin/view/administrador/gerenciador.jsp</result>
 			<result name="input">/admin/index.jsp</result>
 		</action>
-		
-				
+					
 	</package>
 
 </struts>
